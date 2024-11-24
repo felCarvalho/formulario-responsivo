@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#474954" />
+    <meta description="Formulario" content="Formulario" />
+    <meta description="author" content="Felipe C." />
+    <link rel="stylesheet" href="/assets.style/estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>FORMULARIO</title>
+  </head>    
+  <body>
+
+    
+    <div class="display-flex-tablet-desktop">
+      <section class="pai-container-img">
+        <div class="container-img">
+          <img
+            class="img-Undraw"
+            src="/assets.imgs/undraw.svg"
+            alt="img-undrawn.svg"
+          />
+        </div>
+      </section>
+      <main class="display-flex-main">
+        <div class="border-style-main">
+          <header class="cabeçalho">
+            <div class="container-title">
+              <h1>Formulario de Cadastro</h1>
+            </div>
+          </header>
+          <form action="submit" class="form">
+            <div class="inputContainer">
+              <label for="user">Usuário *</label>
+              <input
+                id="theme"
+                type="text"
+                name="text"
+                placeholder="Digite seu usuario"
+                class="inputUser"
+              />
+            </div>
+            <div class="inputContainer">
+              <label for="user">Número *</label>
+              <input
+                id="theme"
+                class="inputNumero"
+                type="number"
+                name="number"
+                placeholder="digite seu número"
+              />
+            </div>
+            <div class="inputContainer">
+              <label for="user">Email *</label>
+              <input
+                id="theme"
+                class="inputEmail"
+                type="email"
+                name="email"
+                placeholder="Digite seu Email"
+              />
+            </div>
+            <div class="inputContainer">
+              <label for="user">CPF *</label>
+              <input
+                id="theme"
+                class="CPF"
+                type="number"
+                name="number"
+                placeholder="Digite seu CPF"
+              />
+            </div>
+            <div class="inputContainer">
+              <label for="user">Nome Social *</label>
+              <input
+                id="theme"
+                class="nomeSocial"
+                type="text"
+                name="text"
+                placeholder="Digite seu nome"
+              />
+            </div>
+            <div class="container-button">
+              <button class="button-enviar" id="button-enviar-theme">
+                enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <footer class="rodapé">
+      <NomeDoAutor class="nome-autor">@Felipe Carvalho &copy;2024</NomeDoAutor>
+    </footer>
+    <div class="container-mensagem-error delete">
+      <p class="mensagem-error"></p>
+      <span class="material-symbols-outlined" id="button-close">close</span>
+    </div>
+    <div class="fundo-blur delete"></div>
+
+    <script src="/assets.js/script.js"></script>
+  </body>
+</html>
