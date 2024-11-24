@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "sass:watch": "sass --watch:/assets.style/estiloLigth.scss:/assets.style/estilo.css"
+  }
+}
